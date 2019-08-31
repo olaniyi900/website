@@ -1,0 +1,110 @@
+/*ABOUT SECTION*/
+[about_us]{
+    padding: 70px;
+    height: 350px;
+    color: #fff;
+    line-height: 20px;
+    background: #ffeb3be3;
+}
+
+[about_us] div {
+    padding: 20px;
+}
+img[about_image]{
+    float: right;
+    width: 40%;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+[about_us] button{
+    padding: 7px;
+    border: none;
+    background-color: orange;
+    margin: 20px 0;
+}
+
+
+/*3_ITEMS AND BE A VOLUNTEER SECTION*/
+[items_3]{
+    padding: 70px;
+    
+}
+
+[items_3_view] td{
+    text-align: center;
+    padding: 50px;
+}
+
+[make_donation]{
+    width: 33%;
+    
+}
+[volunteer]{
+    width: 34%;
+    background: orange;
+    border-radius: 50px;
+}
+
+[sponsorship]{
+    width: 33%;
+}
+
+[volunteer_section]{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-image: url(../img/cake1.jpg);
+    opacity: 0.8;
+}
+[volunteer_section_view], [items_3_view]{
+    width: 100%;
+    
+}
+[for_image]{
+    width: 50%;
+}
+
+[message_form]{
+    width: 50%;
+    color: #fff;
+}
+
+[message_form] input[type="text"],
+[message_form] input[type="email"],
+[message_form] textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    height: 25px;
+    line-height: 20px;
+   
+}
+
+[message_form] textarea {
+    height: 60px;
+}
+[message_form] label {
+    line-height: 40px;
+}
+
+[message_form] input[type="button"]{
+    color: orange;
+    background: #ddd;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+}
+
+[for_image] img{
+    margin-left: 120px;
+    width: 70%;
+    border-radius: 10px;
+}
+/* END OF VOLUNTEER SECTION*/
