@@ -168,7 +168,7 @@ h3{
 .volunteer{
   background: linear-gradient(rgba(240, 61, 86, 0.4),rgba(67, 100, 13, 0.4)),url('../image/component\ \(1\).png');
   background-size: cover;
-  height: 500px;
+  height: 550px;
  
 }
 
@@ -205,7 +205,7 @@ h3{
 
 .volunteer-image img{
   width: 400px;
-  height: 350px;
+  height: 320px;
 
 }
 
@@ -218,18 +218,19 @@ h3{
 
 label{
   display: block;
-  padding-bottom: 15px;
+  color:white;
+  padding: 15px 0px;
 }
 
 input[type=text], textarea{
   outline: none;
- border-bottom-color: black;
+ 
  width: 90%;
  box-sizing: border-box;
  margin-bottom: 5px;
  border-color: transparent;
 background:transparent;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid white;
 }
 
 input[type=text]:focus, textarea:focus {
