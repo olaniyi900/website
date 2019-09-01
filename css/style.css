@@ -10,6 +10,9 @@
 }
 
 html,
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fff;
   color: #fff;
@@ -478,6 +481,14 @@ img[about_image] {
 }
 
 .about-us-button p {
+    position: absolute;
+    font-family: Open Sans;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 35px;
+} 
+
   position: absolute;
   font-family: Open Sans;
   color: #fff;
@@ -485,6 +496,7 @@ img[about_image] {
   margin-top: 15px;
   margin-left: 35px;
 }
+
 
 .about-us-img {
   width: 40%;
