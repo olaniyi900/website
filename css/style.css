@@ -805,3 +805,109 @@ header {
 }
 
 /* end of section5 */
+
+/* ------------------------------------------------ */
+/* Footer styles */
+/* ------------------------------------------------ */
+
+.footer { 
+  background-color: #363434;
+  color: white; 
+  padding: 50px 80px 10px; 
+}
+
+.footer a:link, .footer a:visited { 
+  color: #FFFFFF; 
+  text-decoration: none; 
+}
+
+.footer a:hover, .footer a:active { 
+  color: #FF8121; 
+}
+
+.foot-title { 
+  font: 300 1.5em "Dosis", sans-serif;
+  margin: 0px; 
+  margin-bottom: 7px;
+}
+
+.underbar { 
+  width: 50px; 
+  border-bottom: 2px solid #FFFFFF; }
+
+.foot-content { 
+  margin-top: 20px; 
+}
+
+.foot-content, .design-info { 
+  font: 400 1em "Open Sans", sans-serif; 
+}
+
+.foot-about, .foot-links, .foot-question { 
+  float: left; 
+}
+
+.foot-about { 
+  width: 40%; 
+}
+
+.foot-links { 
+  width: 20%;
+}
+
+.foot-question { 
+  width: 40%; 
+}
+
+.foot-about .foot-content { 
+  width: 60%; 
+}
+
+.clear::after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+
+.foot-info { 
+  text-align: center; 
+  margin-top: 30px; 
+}
+
+#team-stockholm, .material-icons { 
+  color: #FF8121; 
+}
+
+/* RESPONSIVE footer */
+
+/*For tablets*/
+@media only screen and (max-width: 1000px) {
+  .footer {
+    padding: 30px;
+  }
+
+  .foot-about { 
+    width: 35%; 
+  }
+
+  .foot-links { 
+    width: 20%;
+  }
+
+  .foot-question { 
+    width: 45%; 
+  }
+
+}
+
+/*For small displays and smartphones*/
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .foot-about, .foot-links, .foot-question, .foot-about .foot-content { 
+    float: none; 
+    width: 100%;
+  }
+}
