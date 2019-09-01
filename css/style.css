@@ -118,6 +118,134 @@ header {
     margin-left: 100px;
 }
 
+/*ABOUT SECTION*/
+[about_us]{
+    padding: 70px;
+    height: 350px;
+    color: #fff;
+    line-height: 20px;
+    background: #ffeb3be3;
+}
+
+[about_us] div {
+    padding: 20px;
+}
+img[about_image]{
+    float: right;
+    width: 40%;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+[about_us] button{
+    padding: 7px;
+    border: none;
+    background-color: orange;
+    margin: 20px 0;
+}
+
+
+/*3_ITEMS AND BE A VOLUNTEER SECTION*/
+[items_3]{
+    padding: 70px;
+    
+}
+
+[items_3_view] td{
+    text-align: center;
+    padding: 50px;
+}
+
+[make_donation]{
+    width: 33%;
+    
+}
+[volunteer]{
+    width: 34%;
+    background: orange;
+    border-radius: 50px;
+}
+
+[sponsorship]{
+    width: 33%;
+}
+
+[volunteer_section]{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-image: url(../img/cake1.jpg);
+    opacity: 0.8;
+}
+[volunteer_section_view], [items_3_view]{
+    width: 100%;
+    
+}
+[for_image]{
+    width: 50%;
+}
+
+[message_form]{
+    width: 50%;
+    color: #fff;
+}
+
+[message_form] input[type="text"],
+[message_form] input[type="email"],
+[message_form] textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    height: 25px;
+    line-height: 20px;
+   
+}
+
+[message_form] textarea {
+    height: 60px;
+}
+[message_form] label {
+    line-height: 40px;
+}
+
+[message_form] input[type="button"]{
+    color: orange;
+    background: #ddd;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+}
+
+[for_image] img{
+    margin-left: 120px;
+    width: 70%;
+    border-radius: 10px;
+}
+/* END OF VOLUNTEER SECTION*/
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.logo-black { 
+    /*display: none;*/
+    height: 50px;
+    width: auto;
+    float: left;
+    /*margin: 5px 0;*/
+    margin-top:35px;
+    margin-left:40px;
+}
+
+/* Main navi */
 .main-nav {
     float: right;
     list-style: none;
@@ -135,13 +263,14 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 8px 0px;
+    padding: 8px 0;
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.3s;
-    transition: border-bottom 0.3s;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
@@ -162,6 +291,10 @@ header {
 }
 
 .header-text-box span {
+
+}
+
+.orange-text{
     color: #e67e22;
 }
 
@@ -354,4 +487,154 @@ header {
 }
 
 
+/* HEADER */
+/* ----------------------------------------------- */
 
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero3.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*background-attachment: fixed;*/
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:30px;
+    /*text-align:center;*/
+}
+
+.text-align{
+	margin-left:550px;
+	margin-top:150px;
+}
+
+.wraper{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3{
+    margin: 2rem 6rem;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+}
+
+.donate{
+    background-color: #f0981d;
+}
+
+.vision{
+    background-color: #ec9f4d;
+    color: white;
+    
+}
+
+.our{
+    border-bottom: 2px solid white;
+}
+
+.volunteer{
+    background-color: #f0b41d;
+}
+
+.donatebtn{
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: large;
+}
+
+.sec3{
+    padding: 2rem;
+}
+
+.sec3 h3{
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 550px) {
+    #section3{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+    }
+
+    .wraper{
+        display: block;
+    }
+}
+
+
+/*MAKING THE SCREEN RESPONSIVE*/
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    } 
+}
