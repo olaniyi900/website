@@ -209,22 +209,24 @@ header {
     width: 90%;
 }
 
+/* change color to corect one */
 .donate{
-    background-color: #f0981d;
+    background-color: #fe982d;
 }
 
+/* change color to corect one */
 .vision{
-    background-color: #ec9f4d;
+    background-color: #ff8121;
     color: white;
-    
 }
 
 .our{
     border-bottom: 2px solid white;
 }
 
+/* change color to corect one */
 .volunteer{
-    background-color: #f0b41d;
+    background-color: #f2b141;
 }
 
 .donatebtn{
@@ -316,3 +318,50 @@ header {
         margin: 0 0 4% 0;
     }
   
+}
+
+/* section5 css */
+
+#section5{
+    display: flex;
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec5{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.sec5 h4{
+    text-align: center;
+    font-size: large;
+    letter-spacing: 1px;
+}
+ 
+/* set image to center */
+.sec5 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volunteer5{
+    background-color: #fe982d;
+    color: white;
+}
+
+/* for small screen size */
+@media screen and (max-width: 550px) {
+    #section5{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+    }
+}
+
+/* end of section5 */
