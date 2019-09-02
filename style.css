@@ -1,4 +1,4 @@
-/* ------------------------------------------------ */
+/*------------------------------------------------ */
 /* BASIC SETUP */
 /* ------------------------------------------------ */
 
@@ -106,19 +106,7 @@ a:active {
   height: 10%;
 }
 
-#line1 {
-  font-size: 20px;
-}
-#line2 {
-  font-size: 20px;
-}
-#line3 {
-  font-size: 20px;
-}
-#line4 {
-  font-size: 20px;
-}
-#line5 {
+#li {
   font-size: 20px;
 }
 span {
@@ -168,14 +156,6 @@ header {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
-}
-
-.logo {
-  height: 62px;
-  width: auto;
-  float: left;
-  margin-top: 50px;
-  margin-left: 100px;
 }
 
 .logo {
@@ -245,7 +225,7 @@ img[about_image] {
 [volunteer_section] {
   padding-top: 100px;
   padding-bottom: 80px;
-  /*background-image: url(../img/cake1.jpg);*/
+  background-image: url(../img/cake1.jpg);
   opacity: 0.8;
 }
 
@@ -364,9 +344,6 @@ img[about_image] {
   font-size: 150%;
 }
 
-.header-text-box span {
-}
-
 .orange-text {
   color: #e67e22;
 }
@@ -441,9 +418,16 @@ img[about_image] {
   height: 50px;
   background-color: #fff;
   margin: 20px 0 0 15%;
-  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  cursor: pointer;
+}
+.donate-button:hover,
+.volunteer-button:hover,
+.about-us-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .donate-button p {
@@ -452,12 +436,6 @@ img[about_image] {
   color: #000;
   margin-top: 10px;
   margin-left: 45px;
-}
-.donate-button:hover,
-.volunteer-button:hover,
-.about-us-button:hover {
-  opacity: 0.7;
-  cursor: pointer;
 }
 
 .volunteer h3 {
@@ -480,9 +458,9 @@ img[about_image] {
   height: 50px;
   background-color: #fff;
   margin: 20px 0 0 15%;
-  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
 }
 
 .volunteer-button p {
@@ -535,9 +513,9 @@ img[about_image] {
   height: 60px;
   background-color: #ff8121;
   margin: 20px 0 0 5%;
-  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
 }
 
 .about-us-button p {
@@ -548,6 +526,15 @@ img[about_image] {
   margin-top: 15px;
   margin-left: 35px;
 }
+/*SOMOENE FORGOT TO PUT A SELECTOR FOR THIS STYLE
+  position: absolute;
+  font-family: Open Sans;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+*/
 
 .about-us-img {
   width: 40%;
@@ -563,27 +550,18 @@ img[about_image] {
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  -webkit-box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
-  -moz-box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
-  box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
+  -webkit-box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
+  -moz-box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
+  box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
+  cursor: pointer;
 }
 
 .about-main-img:hover {
   opacity: 0.9;
 }
 
-#about1 {
-  background-color: orange; /*#ffb833;*/
-  color: #fff;
-}
-
-#about2 {
-  background-color: orange; /* #ffb833;*/
-  color: #fff;
-}
-
-#about3 {
-  background-color: orange; /* #ffb833;*/
+#about {
+  background-color: orange;
   color: #fff;
 }
 
@@ -618,19 +596,7 @@ p {
   border-radius: 10px;
   box-shadow: 17px 19px #ffc14d;
 }
-#readMore1 {
-  background-color: #ffa600;
-  color: #fff;
-  border-color: #ffa600;
-  height: 40px;
-  font-family: montserrat;
-  font-size: 20px;
-  border: none;
-  width: 37%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-#readMore2 {
+#readMore {
   background-color: #ffa600;
   color: #fff;
   border-color: #ffa600;
@@ -645,13 +611,13 @@ p {
 hr {
   color: #e0e0e0;
   background-color: #e0e0e0;
-  /*	border-color: #e0e0e0;*/
+  border-color: #e0e0e0;
   margin: 0 auto 20px auto;
   width: 100px !important;
-  border-width: 10px;
-  /*width:70%;*/
+  /*border-width:10px;
+	width:70%;*/
   margin-left: -0.5%;
-  /*	border-color: #ffa600;*/
+  border-color: #ffa600;
 }
 
 /* HEADER */
@@ -662,9 +628,9 @@ header {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url(../img/hero3.png);
+    url(img/hero3.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/hero3.png);
+    url(img/hero3.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -689,7 +655,7 @@ header {
   margin-top: 150px;
 }
 
-.wrapper {
+.wraper {
   height: 100vh;
   width: 80%;
   display: flex;
@@ -705,12 +671,12 @@ header {
   width: 90%;
 }
 
-/* change color to correct one */
+/* change color to corect one */
 .donate {
   background-color: #fe982d;
 }
 
-/* change color to correct one */
+/* change color to corect one */
 .vision {
   background-color: #ff8121;
   color: white;
@@ -720,7 +686,7 @@ header {
   border-bottom: 2px solid white;
 }
 
-/* change color to correct one */
+/* change color to corect one */
 .volunteer {
   background-color: #f2b141;
 }
@@ -748,7 +714,7 @@ header {
     margin: 1rem 2rem;
   }
 
-  .wrapper {
+  .wraper {
     display: block;
   }
 }
@@ -765,18 +731,6 @@ header {
   .row {
     padding: 0 2%;
   }
-}
-
-/*STICKY MENU*/
-#sticky {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  z-index: 3;
-  border-bottom: #ff8121 0.1px solid;
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -825,7 +779,7 @@ header {
 
   .plan-box {
     width: 100%;
-    margin-left: 0;
+    margin-left: 0%;
   }
 
   .plan-price {
@@ -912,6 +866,7 @@ header {
   background-color: #363434;
   color: white;
   padding: 50px 80px 10px;
+  line-height: 0.9rem;
 }
 
 .footer a:link,
@@ -927,7 +882,7 @@ header {
 
 .foot-title {
   font: 300 1.5em "Dosis", sans-serif;
-  margin: 0;
+  margin: 0px;
   margin-bottom: 7px;
 }
 
@@ -1017,4 +972,17 @@ header {
     float: none;
     width: 100%;
   }
+}
+
+/*STICKY MENU*/
+
+#sticky {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  z-index: 3;
+  border-bottom: #ff8121 0.1px solid;
 }
