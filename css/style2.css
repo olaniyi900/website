@@ -13,11 +13,11 @@ flex-direction: column;
 float: right;
 }
 body {
-  background-image: url("Kinshasa.png");
+  background-image: url("../img/Kinshasa.png");
   background-repeat: no-repeat;
   background-size:1920px 700px; 
-  background-position-x: 0px;
-  background-position-y: 0px;
+  background-position-x: 0;
+  background-position-y: 0;
 }
 
 ul {
@@ -34,7 +34,7 @@ ul {
   text-decoration:none;
   display: block;
   color:#FFFFFF;
-  display:inline-block;
+/*  display:inline-block;*/
   margin-right: 15px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -68,7 +68,7 @@ h2{
 }
 .reading{
   float:right;
-  padding:20px 20px 20px 0px;
+  padding:20px 20px 20px 0;
   width:600px;
   height:430px;
 }
@@ -85,8 +85,7 @@ h2{
   font-size: 40px;
   font-family: 'Dosis', medium, sans-serif;
   text-align:center;
-  
-  float:center;
+
 }
 
 .column{
