@@ -86,8 +86,8 @@ a:link,
 a:visited {
   color: #e67e22;
   text-decoration: none;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #e67e22;
+  /*! padding-bottom: 1px; */
+  /*! border-bottom: 1px solid #e67e22; */
   -webkit-transition: border-bottom 0.2s, color 0.2s;
   transition: border-bottom 0.2s, color 0.2s;
 }
@@ -99,6 +99,35 @@ a:active {
   padding-bottom: 1px;
   border-bottom: 1px solid transparent;
 }
+
+
+/* HEADER RE-DESIGN */
+#img{
+        width:20%;
+        height:10%;
+    }
+    
+    #li{
+        font-size:20px;
+    }
+     span{
+   color:#f0981d;
+ }
+.location{
+  color:white;
+}
+header #donateBtn {
+  font-size: 25px;
+  background-color: #f0981d;
+  border-color: #f0981d;
+  color:white;
+  width: 150%;
+  border-radius: 40px;
+}
+
+/* END OF HEADER RE-DESIGN */
+
+
 
 /* ------------------------------------------------ */
 /* HEADER */
