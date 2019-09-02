@@ -1,4 +1,4 @@
- ------------------------------------------------ */
+/* ------------------------------------------------ */
 /* BASIC SETUP */
 /* ------------------------------------------------ */
 
@@ -107,9 +107,21 @@ a:active {
         height:10%;
     }
     
-    #li{
+    #line1{
         font-size:20px;
     }
+#line2{
+  font-size:20px;
+}
+#line3{
+  font-size:20px;
+}
+#line4{
+  font-size:20px;
+}
+#line5{
+  font-size:20px;
+}
      span{
    color:#f0981d;
  }
@@ -219,7 +231,7 @@ img[about_image] {
 [volunteer_section] {
   padding-top: 100px;
   padding-bottom: 80px;
-  background-image: url(../img/cake1.jpg);
+  /*background-image: url(../img/cake1.jpg);*/
   opacity: 0.8;
 }
 
@@ -416,9 +428,9 @@ img[about_image] {
   height: 50px;
   background-color: #fff;
   margin: 20px 0 0 15%;
-  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
 }
 
 .donate-button p {
@@ -449,9 +461,9 @@ img[about_image] {
   height: 50px;
   background-color: #fff;
   margin: 20px 0 0 15%;
-  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
 }
 
 .volunteer-button p {
@@ -504,9 +516,9 @@ img[about_image] {
   height: 60px;
   background-color: #FF8121;
   margin: 20px 0 0 5%;
-  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
-  box-shadow: 0px 0px 15px -3px rgba(138, 112, 138, 1);
+  -webkit-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  -moz-box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
+  box-shadow: 0 0 15px -3px rgba(138, 112, 138, 1);
 }
 
 .about-us-button p {
@@ -516,14 +528,6 @@ img[about_image] {
     margin: 0 auto;
     margin-top: 15px;
     margin-left: 35px;
-} 
-
-  position: absolute;
-  font-family: Open Sans;
-  color: #fff;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-left: 35px;
 }
 
 
@@ -541,17 +545,29 @@ img[about_image] {
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  -webkit-box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
-  -moz-box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
-  box-shadow: 35px 35px 0px -2px rgba(255, 255, 255, 0.07);
+  -webkit-box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
+  -moz-box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
+  box-shadow: 35px 35px 0 -2px rgba(255, 255, 255, 0.07);
 }
 
 
-#about{
-	background-color:orange; #ffb833;
+#about1{
+	background-color:orange; /*#ffb833;*/
 	color: #fff;
 
 }
+
+ #about2{
+   background-color:orange;/* #ffb833;*/
+   color: #fff;
+
+ }
+
+ #about3{
+   background-color:orange;/* #ffb833;*/
+   color: #fff;
+
+ }
 
 .text{
 	float:left;
@@ -564,7 +580,7 @@ img[about_image] {
 }
 
  h2,p{
-	font-family:georgia;
+	font-family: georgia;
 
 }
 
@@ -585,7 +601,7 @@ img[about_image] {
 	border-radius:10px;
 	box-shadow: 17px 19px #ffc14d;
 }
-#readMore{
+#readMore1{
 	background-color:#ffa600;
 	color: #fff;
 	border-color:#ffa600;
@@ -597,14 +613,26 @@ img[about_image] {
 	box-shadow: 0 0 10px rgba(0, 0, 0 , .2);
 }
 
+#readMore2{
+  background-color:#ffa600;
+  color: #fff;
+  border-color:#ffa600;
+  height: 40px;
+  font-family: montserrat;
+  font-size: 20px;
+  border:none;
+  width:37%;
+  box-shadow: 0 0 10px rgba(0, 0, 0 , .2);
+}
+
 hr{
 	color:#e0e0e0;
 	background-color: #e0e0e0; 
 	border-color: #e0e0e0;
 	margin: 0 auto 20px auto;
 	width: 100px !important;
-	/*border-width:10px;
-	width:70%;*/
+	border-width:10px;
+	width:70%;
 	margin-left:-0.5%;
 	border-color: #ffa600;
 
@@ -615,8 +643,8 @@ hr{
 /* ----------------------------------------------- */
 
 header {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero3.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero3.png);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero3.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -657,12 +685,12 @@ header {
   width: 90%;
 }
 
-/* change color to corect one */
+/* change color to correct one */
 .donate {
   background-color: #fe982d;
 }
 
-/* change color to corect one */
+/* change color to correct one */
 .vision {
   background-color: #ff8121;
   color: white;
@@ -672,7 +700,7 @@ header {
   border-bottom: 2px solid white;
 }
 
-/* change color to corect one */
+/* change color to correct one */
 .volunteer {
   background-color: #f2b141;
 }
@@ -767,7 +795,7 @@ header {
 
   .plan-box {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 0;
   }
 
   .plan-price {
@@ -868,7 +896,7 @@ header {
 
 .foot-title { 
   font: 300 1.5em "Dosis", sans-serif;
-  margin: 0px; 
+  margin: 0;
   margin-bottom: 7px;
 }
 
@@ -948,7 +976,7 @@ header {
   }
 
   .foot-about, .foot-links, .foot-question, .foot-about .foot-content { 
-    float: none; 
+    float: none;
     width: 100%;
   }
 }

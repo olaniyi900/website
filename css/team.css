@@ -85,7 +85,7 @@ img {
     max-width: 240px;
     border-radius: 50%;
     border: 15px solid transparent;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.18);
     transition: all 0.1s ease-in;
 }
 
