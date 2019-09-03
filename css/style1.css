@@ -358,6 +358,12 @@ img[about_image] {
   color: #e67e22;
 }
 
+#testimonials{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/kids2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/kids2.png);
+     
+}
+
 /* ----------------------------------------------- */
 /* VISION AND DONATION */
 /* ----------------------------------------------- */
